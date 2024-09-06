@@ -1,6 +1,29 @@
-  .container {
+ body {
+  background-color: hsl(0, 0%, 100%);
+  background: radial-gradient(circle at 20% 30%, #FFB6C1, transparent 30%),
+              radial-gradient(circle at 80% 70%, #101e6b, transparent 40%),
+              radial-gradient(circle at 50% 50%, #7B68EE, transparent 25%),
+              radial-gradient(circle at 60% 40%, #FFE4E1, transparent 20%),
+              radial-gradient(circle at 15% 20%, #FFB6C1, transparent 10%),
+              radial-gradient(circle at 85% 30%, #9370DB, transparent 15%),
+              radial-gradient(circle at 50% 10%, #7B68EE, transparent 12%),
+              radial-gradient(circle at 30% 80%, #FFE4E1, transparent 18%),
+              radial-gradient(circle at 70% 60%, #FF69B4, transparent 20%),
+              radial-gradient(circle at 20% 70%, #DA70D6, transparent 25%),
+              radial-gradient(circle at 90% 20%, #BA55D3, transparent 22%),
+              radial-gradient(circle at 40% 40%, #8A2BE2, transparent 28%),
+              radial-gradient(circle at 60% 90%, #c8dda0, transparent 16%),
+              radial-gradient(circle at 10% 40%, #197279, transparent 12%),
+              radial-gradient(circle at 50% 90%, #9c3e4c, transparent 18%),
+              radial-gradient(circle at 80% 10%, #704bb8, transparent 20%);
+ }
+ 
+ .container {
     max-width: 960px;
+    background-color: rgba(255, 255, 255, 0.674);
+
   }
+  
   main {
     min-height: calc(100vh - 215px);
   }
@@ -8,4 +31,36 @@
   .cont {
     overflow: auto;
     height: 200px;
+  }
+
+
+  /*BOTONES*/
+  #limpiar {
+    background-color: rgb(167, 99, 153);
+    border: none;
+    color: white;
+  }
+  #limpiar:hover {
+    background-color: rgb(129, 76, 118) ;
+  }
+
+  #agregar {
+    background-color:  rgb(167, 99, 153);
+    border: none;
+    color: white;
+  }
+
+  #agregar:hover {
+    background-color: rgb(129, 76, 118) ;
+  }
+ 
+#textarea {
+  background-color: rgba(255, 255, 255, 0.674);
+  border-radius: 15px;
+  }
+
+  
+  #item {
+    background-color: rgba(255, 255, 255, 0.674);
+
   }
